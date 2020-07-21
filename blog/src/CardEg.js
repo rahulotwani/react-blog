@@ -18,7 +18,7 @@ class CardEg extends Component {
           </Card.Description>
         </Card.Content>
         <Card.Content extra>
-          <a>
+          <a href="https://github.com/rahulotwani">
             <Icon name='user' />
             10 Friends
           </a>
