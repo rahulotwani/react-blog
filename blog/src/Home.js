@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
-import { Responsive,Segment,Sidebar,Button,Container,Header,Icon,Menu,Visibility } from 'semantic-ui-react'
+import { Responsive,Segment,Sidebar,Button,Container,Header,Icon,Menu,Visibility, Divider } from 'semantic-ui-react'
+import Blog from './Blog'
 import Background from './bg.jpg';
 import bgMobile from './bg-mobile.jpg';
 
@@ -185,8 +186,9 @@ ResponsiveContainer.propTypes = {
 }
 
 const Home = () => (
-    <ResponsiveContainer>
- 
+    <ResponsiveContainer >
+      <Divider hidden />
+      <Blog />
     </ResponsiveContainer>
 
 )
